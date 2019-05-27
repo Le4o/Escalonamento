@@ -1,23 +1,28 @@
-# Node.js & Passport Login
+# Projeto Escalonamento
+
+Login e Autenticação utilizando Node.js, Express, Passport, Mongoose, EJS e alguns outros pacotes.
 
 This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
-### Version: 2.0.0
+![](https://img.shields.io/badge/Version-2.0.0-blue.svg)
 
-### Usage
-
+### Usual
+#### Comandos para instalar os pacotes
 ```sh
-$ npm install
+$ npm install express --save
+$ npm install nodemon --save-dev
+$ npm install body-parser --save 
+$ npm install mongodb --save
 ```
 
 ```sh
 $ npm start
-# Or run with Nodemon
+# Ou abra utilizando o Nodemon
 $ npm run dev
 
-# Visit http://localhost:5000
+# Visite http://localhost:5000
 ```
 
 ### MongoDB
 
-Open "config/keys.js" and add your MongoDB URI, local or Atlas
+Abra "config/keys.js" e adicione sua URI do MongoDB local
